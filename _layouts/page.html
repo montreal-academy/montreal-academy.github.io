@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="page-hero">
+  <div class="page-hero__inner">
+    <p class="eyebrow">Montreal Academy</p>
+    <h1>{{ page.title }}</h1>
+    {% unless page.url contains '/single-post/' %}
+      {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
+    {% endunless %}
+  </div>
+</section>
+<section class="content">
+  {{ content }}
+</section>

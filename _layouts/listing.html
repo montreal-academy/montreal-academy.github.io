@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<section class="page-hero">
+  <div class="page-hero__inner">
+    <p class="eyebrow">Montreal Academy</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="listing-meta">
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+  </div>
+
+  {% if page.show_categories %}
+    {% assign categories = site.pages | where_exp: "p", "p.url contains '/news/categories/'" | sort: "title" %}
+    {% if categories.size > 0 %}
+      <div class="category-pills">
+        {% for cat in categories %}
+          <a class="pill" href="{{ cat.url | relative_url }}">{{ cat.title | default: cat.url | split: '/' | last }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+
+  {% assign items = site.pages | where_exp: "p", "p.url contains page.filter_prefix" | where_exp: "p", "p.url != page.url" | sort: "date" | reverse %}
+  {% if items.size > 0 %}
+    <div class="cards">
+      {% for item in items %}
+        <a class="post-card" href="{{ item.url | relative_url }}">
+          <div class="post-card__body">
+            <p class="post-card__date">{% if item.date %}{{ item.date | date: "%Y-%m-%d" }}{% endif %}</p>
+            <h3>{{ item.title }}</h3>
+            {% if item.subtitle %}
+              {% if item.subtitle contains '。' %}
+                {% assign _sentences = item.subtitle | split: '。' %}
+                {% assign _excerpt = _sentences | slice: 0, 3 | join: '。' %}
+                <p class="post-card__excerpt">{{ _excerpt }}{% if _excerpt != '' %}。{% endif %}</p>
+              {% elsif item.subtitle contains '.' %}
+                {% assign _sentences = item.subtitle | split: '.' %}
+                {% assign _excerpt = _sentences | slice: 0, 3 | join: '.' %}
+                <p class="post-card__excerpt">{{ _excerpt }}{% if _excerpt != '' %}.{% endif %}</p>
+              {% else %}
+                <p class="post-card__excerpt">{{ item.subtitle }}</p>
+              {% endif %}
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>記事は準備中です。</p>
+  {% endif %}
+</section>

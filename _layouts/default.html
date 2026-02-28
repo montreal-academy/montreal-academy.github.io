@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body class="{% if page.url == '/' %}page-home{% endif %}{% if page.url contains '/news/categories/' %} page-news-category{% endif %}{% if page.url contains '/single-post/' %} page-single-post{% endif %}">
+    <div class="page">
+      {% include nav.html %}
+      <main class="main">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+    {% if page.url == '/' %}
+    <script src="{{ '/assets/js/home-slider.js' | relative_url }}"></script>
+    {% endif %}
+    {% if page.url contains '/news/categories/' %}
+    <script id="home-post-map" type="application/json">
+    [
+    {% assign post_items = site.pages | where_exp: "p", "p.url contains '/single-post/'" | where_exp: "p", "p.url != '/single-post/'" %}
+    {% for p in post_items %}
+      {"title": {{ p.title | jsonify }}, "url": {{ p.url | relative_url | jsonify }} }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ]
+    </script>
+    <script src="{{ '/assets/js/category-links.js' | relative_url }}"></script>
+    {% endif %}
+  </body>
+</html>

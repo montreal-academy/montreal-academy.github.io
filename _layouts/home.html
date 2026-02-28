@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section class="hero">
+  <div>
+    <span class="tag">Montreal Academy</span>
+    <h1>{{ page.hero_title | default: page.title }}</h1>
+    {% if page.hero_subtitle or page.subtitle %}<p>{{ page.hero_subtitle | default: page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <h2>Explore</h2>
+  <div class="grid">
+    <a class="card" href="{{ '/about/' | relative_url }}">
+      <h3>About Us</h3>
+      <p>モントリオール・アカデミー会の紹介と活動内容。</p>
+    </a>
+    <a class="card" href="{{ '/start-living-in-montreal/' | relative_url }}">
+      <h3>生活情報</h3>
+      <p>渡航後の手続きや生活に必要な情報。</p>
+    </a>
+    <a class="card" href="{{ '/news/' | relative_url }}">
+      <h3>Articles</h3>
+      <p>最新の記事とアーカイブ。</p>
+    </a>
+    <a class="card" href="{{ '/researcher-support/' | relative_url }}">
+      <h3>研究者支援情報</h3>
+      <p>研究者向けの支援・情報まとめ。</p>
+    </a>
+  </div>
+</section>
+
+<section class="content">
+  {{ content }}
+</section>
+
+{% assign post_items = site.pages | where_exp: "p", "p.url contains '/single-post/'" | where_exp: "p", "p.url != '/single-post/'" %}
+<script id="home-post-map" type="application/json">
+[
+{% for p in post_items %}
+  {"title": {{ p.title | jsonify }}, "url": {{ p.url | relative_url | jsonify }} }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
+</script>
