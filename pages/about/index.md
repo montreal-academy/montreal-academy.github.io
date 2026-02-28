@@ -22,62 +22,46 @@ source_url: https://www.montreal-academy.com/about
 
 アカデミー会では随時、会員を募集しております。アカデミックマインドを持った方なら、誰でも入会可能です。入会金等はありません。レクリエーション費用に関してましては原則実費とさせていただいております。入会・退会は自由です。
 
-会長
+## 運営体制
 
-柴田ヘンリー隆典
+### 会長
 
-HenryR Shibata MD MSc FACS FRCSC
+- 柴田ヘンリー隆典
+  - Henry R Shibata, MD MSc FACS FRCSC
+  - Professor Emeritus, McGill University Surgical Oncologist, MUHC (retired)
+  - Chairman Emeritus, Cedars Cancer Foundation
 
-Professor Emeritus McGill University Surgical Oncologist MUHC (retired)
+### 幹事
 
-Chairman Emeritus Cedars Cancer Foundation
+- 佐藤宏明
+  - Hiroaki Sato, MD, PhD
+  - Dept. Anesthesia, Royal Victoria Hospital, McGill University Health Centre
 
-幹事
+- 富田紀男
+  - Norio Tomita
+  - Atelier Tomita Inc. President
+  - PhD Candidate, University of Montreal, Biomedical Engineering
+  - Laboratoire de biorhéologie et d'ultrasonographie médicale (LBUM), CRCHUM
 
-佐藤宏明
+- 志賀由己浩
+  - Yukihiro Shiga, MD, PhD
+  - Postdoctoral fellow, Montreal University Hospital Research Centre (CRCHUM)
 
-Hiroaki Sato, MD, PhD
+- 長沼大樹
+  - Hiroki Naganuma
+  - Ph.D. candidate, Mila - Quebec Artificial Intelligence Institute, and Department of Computer Science and Operations Research (DIRO), Université de Montréal
 
-Dept. Anesthesia, Royal Victoria Hospital, McGill University Health Centre
+- 渡邉（春原) 桃佳
+  - Momoka Watanabe (Sunohara), PhD
+  - Concordia University
 
-富田紀男
+- 田中義章
+  - Yoshiaki Tanaka, PhD
+  - Centre de Recherche de l'Hôpital Maisonneuve-Rosemont, Université de Montréal
 
-Norio Tomita
-
-Atelier Tomita Inc. President
-
-PhD Candidate, University of Montreal, Biomedical Engineering,
-
-Laboratoire de biorhéologie et d'ultrasonographie médicale(LBUM), CRCHUM
-
-志賀由己浩
-
-Yukihiro Shiga, MD, PhD
-
-Postdoctoral fellow, Montreal University Hospital Research Centre (CRCHUM)
-
-長沼大樹
-
-Hiroki Naganuma
-Ph.D. candidate, Mila - Quebec Artificial Intelligence Institute, and
-Department of Computer Science and Operations Research (DIRO), Université de Montréal
-
-渡邉（春原) 桃佳
-
-Momoka Watanabe (Sunohara), PhD
-
-Concordia University
-
-田中義章
-
-Yoshiaki Tanaka, PhD
-
-Centre de Recherche de l'Hôpital Maisonneuve-Rosemont, Université de Montréal
-
-吉治 智志
-
-Satoshi Yoshiji, MD, PhD
-Assistant Professor, Department of Human Genetics, McGill University
+- 吉治 智志
+  - Satoshi Yoshiji, MD, PhD
+  - Assistant Professor, Department of Human Genetics, McGill University
 
 ![MAC 50th.jpg](/assets/images/imported/about-6412b0ca3102.jpg)
 
