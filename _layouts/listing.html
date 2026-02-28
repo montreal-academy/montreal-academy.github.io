@@ -39,12 +39,28 @@ layout: default
               {% assign first_img = img_bits[1] | split: ')' | first | strip %}
             {% endif %}
           {% endif %}
-          <a class="home-blog-card{% if first_img == '' %} home-blog-card--no-image{% endif %}" href="{{ item.url | relative_url }}">
-            {% if first_img != '' %}
-              {% if first_img contains '://' %}
-                <img src="{{ first_img }}" alt="{{ item.title }}" loading="lazy" />
+          {% assign fallback_img = site.data.single_post_images[item.url] | default: '' %}
+          {% if fallback_img == '' %}
+            {% assign tail = item.url | slice: -1, 1 %}
+            {% if tail == '/' %}
+              {% assign url_len = item.url | size %}
+              {% assign url_len_minus = url_len | minus: 1 %}
+              {% assign alt_key = item.url | slice: 0, url_len_minus %}
+            {% else %}
+              {% assign alt_key = item.url | append: '/' %}
+            {% endif %}
+            {% assign fallback_img = site.data.single_post_images[alt_key] | default: '' %}
+          {% endif %}
+          {% assign card_img = first_img %}
+          {% if card_img == '' and fallback_img != '' %}
+            {% assign card_img = fallback_img %}
+          {% endif %}
+          <a class="home-blog-card{% if card_img == '' %} home-blog-card--no-image{% endif %}" href="{{ item.url | relative_url }}">
+            {% if card_img != '' %}
+              {% if card_img contains '://' %}
+                <img src="{{ card_img }}" alt="{{ item.title }}" loading="lazy" />
               {% else %}
-                <img src="{{ first_img | relative_url }}" alt="{{ item.title }}" loading="lazy" />
+                <img src="{{ card_img | relative_url }}" alt="{{ item.title }}" loading="lazy" />
               {% endif %}
             {% else %}
               <div class="home-blog-card__placeholder" aria-hidden="true"></div>
