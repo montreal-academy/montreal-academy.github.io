@@ -7,31 +7,26 @@ source_url: https://www.montreal-academy.com/news/categories/travel
 
 ![ロッキーマウンテン旅行記](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-3961d438137b.jpg)
 
-![ロッキーマウンテン旅行記](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-3961d438137b.jpg)
 
 ## ロッキーマウンテン旅行記
 
 ![カンクン旅行記](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-e1fbc3a7e7b8.jpg)
 
-![カンクン旅行記](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-e1fbc3a7e7b8.jpg)
 
 ## カンクン旅行記
 
 ![イエローナイフ体験記](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-6f92f4eda0c5.jpg)
 
-![イエローナイフ体験記](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-6f92f4eda0c5.jpg)
 
 ## イエローナイフ体験記
 
 ![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-edfc1209306c.jpeg)
 
-![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-edfc1209306c.jpeg)
 
 ## モントリオールでの賃貸物件の探し方
 
 ![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-a8ec71404d2d.jpg)
 
-![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e6-97-85-e8-a1-8c-e8-a8-98-a8ec71404d2d.jpg)
 
 ## 独学で日本語を学ぶ人たちから学ぶこと
 

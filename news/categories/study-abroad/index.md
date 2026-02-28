@@ -7,19 +7,16 @@ source_url: https://www.montreal-academy.com/news/categories/study-abroad
 
 ![McGill大学での留学を振り返って](/assets/images/imported/news-categories-e7-95-99-e5-ad-a6-e8-a8-98-ea01f6f8dbe1.jpg)
 
-![McGill大学での留学を振り返って](/assets/images/imported/news-categories-e7-95-99-e5-ad-a6-e8-a8-98-ea01f6f8dbe1.jpg)
 
 ## McGill大学での留学を振り返って
 
 ![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e7-95-99-e5-ad-a6-e8-a8-98-edfc1209306c.jpeg)
 
-![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e7-95-99-e5-ad-a6-e8-a8-98-edfc1209306c.jpeg)
 
 ## モントリオールでの賃貸物件の探し方
 
 ![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e7-95-99-e5-ad-a6-e8-a8-98-a8ec71404d2d.jpg)
 
-![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e7-95-99-e5-ad-a6-e8-a8-98-a8ec71404d2d.jpg)
 
 ## 独学で日本語を学ぶ人たちから学ぶこと
 

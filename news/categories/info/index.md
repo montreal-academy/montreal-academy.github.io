@@ -7,43 +7,36 @@ source_url: https://www.montreal-academy.com/news/categories/info
 
 ![Amabie x Montreal Academy Club](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-626e83279b38.jpg)
 
-![Amabie x Montreal Academy Club](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-626e83279b38.jpg)
 
 ## Amabie x Montreal Academy Club
 
 ![SDGs × マンガのチカラ](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-99c1ef9d8639.jpg)
 
-![SDGs × マンガのチカラ](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-99c1ef9d8639.jpg)
 
 ## SDGs × マンガのチカラ
 
 ![コロナとアマビエ現象と日本の妖怪文化](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-c9511ae3045f.jpg)
 
-![コロナとアマビエ現象と日本の妖怪文化](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-c9511ae3045f.jpg)
 
 ## コロナとアマビエ現象と日本の妖怪文化
 
 ![夏　BBQ](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-dc4704f17d70.jpg)
 
-![夏　BBQ](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-dc4704f17d70.jpg)
 
 ## 夏　BBQ
 
 ![Message from the President](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-a13c68d93892.jpg)
 
-![Message from the President](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-a13c68d93892.jpg)
 
 ## Message from the President
 
 ![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-edfc1209306c.jpeg)
 
-![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-edfc1209306c.jpeg)
 
 ## モントリオールでの賃貸物件の探し方
 
 ![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-a8ec71404d2d.jpg)
 
-![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e6-83-85-e5-a0-b1-a8ec71404d2d.jpg)
 
 ## 独学で日本語を学ぶ人たちから学ぶこと
 

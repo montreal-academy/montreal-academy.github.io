@@ -7,19 +7,16 @@ source_url: https://www.montreal-academy.com/news/categories/body-care
 
 ![夏の季節を胸いっぱいに吸うために](/assets/images/imported/news-categories-e6-95-b4-e4-bd-93-67f9cfe93bd7.jpg)
 
-![夏の季節を胸いっぱいに吸うために](/assets/images/imported/news-categories-e6-95-b4-e4-bd-93-67f9cfe93bd7.jpg)
 
 ## 夏の季節を胸いっぱいに吸うために
 
 ![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e6-95-b4-e4-bd-93-edfc1209306c.jpeg)
 
-![モントリオールでの賃貸物件の探し方](/assets/images/imported/news-categories-e6-95-b4-e4-bd-93-edfc1209306c.jpeg)
 
 ## モントリオールでの賃貸物件の探し方
 
 ![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e6-95-b4-e4-bd-93-a8ec71404d2d.jpg)
 
-![独学で日本語を学ぶ人たちから学ぶこと](/assets/images/imported/news-categories-e6-95-b4-e4-bd-93-a8ec71404d2d.jpg)
 
 ## 独学で日本語を学ぶ人たちから学ぶこと
 
