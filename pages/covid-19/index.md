@@ -9,6 +9,23 @@ source_url: https://www.montreal-academy.com/covid-19
 
 （注）COVIDに関する情報、研究は日々更新しております。このHPの記事が常に正しいとは限りません。最新情報とあわせてご覧ください。
 
+## 記事リンク一覧（修正版）
+
+- [モントリオールでの隔離 (Quarantine) について](https://www.montreal-academy.com/single-post/montreal-quarantine-guide)
+- [コロナと、子供と、正しく付き合うために](https://www.montreal-academy.com/single-post/covid-and-kids-guide)
+- [情報の選択と理解](https://www.montreal-academy.com/single-post/2020/09/05/information-selection-understanding)
+- [歯科医院への緊急受診の目安と母と子のデンタルケアについて](https://www.montreal-academy.com/single-post/2020/05/31/emergency-dental-care-mother-child)
+- [夏の季節を胸いっぱいに吸うために](https://www.montreal-academy.com/single-post/2020/05/26/breathe-in-summer)
+- [不安な時に何をどう聴く？](https://www.montreal-academy.com/single-post/2020/05/21/listening-during-anxiety)
+- [Covid-19と循環器疾患](https://www.montreal-academy.com/single-post/2020/05/21/covid19-cardiovascular-disease)
+- [新型コロナウイルスに関連する結膜炎について](https://www.montreal-academy.com/single-post/2020/05/17/covid19-conjunctivitis)
+- [コロナとアマビエ現象と日本の妖怪文化](https://www.montreal-academy.com/single-post/2020/05/11/covid-amabie-yokai-culture)
+- [病院の診療の現状](https://www.montreal-academy.com/blank-6)
+- [COVID-19とその治療薬](https://www.montreal-academy.com/single-post/2020/05/03/covid19-treatment-options)
+- [COVID-19と神経疾患患者](https://www.montreal-academy.com/covid-19-2)
+- [COVID-19と妊産婦について](https://www.montreal-academy.com/covid-19-1)
+- [メンタルヘルスケアに関するページのご紹介](https://www.montreal-academy.com/blank-5)
+
 - AMABIE SPACE
 
 ## AMABIE SPACE
