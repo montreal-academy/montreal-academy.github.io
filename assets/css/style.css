@@ -102,25 +102,26 @@ a:hover {
   overflow: hidden;
   grid-template-columns: minmax(0, 1fr);
   border: 1px solid var(--border);
-  border-radius: 26px;
+  border-radius: 0;
   background: rgba(255, 255, 255, 0.45);
 }
 
 .page-home .hero::before {
   content: "";
   position: absolute;
-  left: 24px;
-  right: 24px;
+  left: 50%;
+  width: 100vw;
+  max-width: none;
   top: 50%;
   height: clamp(180px, 28vw, 300px);
-  transform: translateY(-50%) scale(1.05);
+  transform: translate(-50%, -50%) scale(1.02);
   background-image: url("/assets/images/imported/home-4c9308c481ee.jpeg");
   background-size: cover;
   background-position: center;
   filter: blur(12px) saturate(0.95);
   opacity: 0.78;
   z-index: -2;
-  border-radius: 999px;
+  border-radius: 0;
   -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 16%, #000 84%, transparent 100%);
   mask-image: linear-gradient(90deg, transparent 0%, #000 16%, #000 84%, transparent 100%);
 }
