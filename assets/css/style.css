@@ -468,6 +468,73 @@ a:hover {
   max-width: 1040px;
 }
 
+.content a {
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+  word-break: break-word;
+}
+
+.content a:hover {
+  color: var(--accent);
+}
+
+.page-researcher-support .content {
+  max-width: 980px;
+}
+
+.rs-list {
+  display: grid;
+  gap: 18px;
+}
+
+.rs-item {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 18px 20px;
+}
+
+.rs-item h2 {
+  margin: 4px 0 12px;
+  font-size: 1.2rem;
+  line-height: 1.45;
+}
+
+.rs-item p,
+.rs-item li {
+  line-height: 1.8;
+}
+
+.rs-item__date {
+  margin: 0;
+  font-size: 0.84rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+
+.rs-item .rs-linkline {
+  margin: 0 0 4px;
+}
+
+.rs-item .rs-url {
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.rs-item ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
 .guide-actions {
   display: flex;
   flex-wrap: wrap;
