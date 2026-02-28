@@ -6,27 +6,44 @@ layout: default
     <span class="tag">Montreal Academy</span>
     <h1>{{ page.hero_title | default: page.title }}</h1>
     {% if page.hero_subtitle or page.subtitle %}<p>{{ page.hero_subtitle | default: page.subtitle }}</p>{% endif %}
+    <div class="hero-actions">
+      <a class="hero-cta" href="{{ '/contact/' | relative_url }}">Contact Us</a>
+      <a class="hero-ghost" href="{{ '/m/' | relative_url }}">Montrealの生活情報</a>
+      <a class="hero-ghost" href="{{ '/single-post/' | relative_url }}">Blog</a>
+    </div>
   </div>
 </section>
 
 <section class="section">
-  <h2>Explore</h2>
+  <h2>Quick Links</h2>
   <div class="grid">
     <a class="card" href="{{ '/about/' | relative_url }}">
       <h3>About Us</h3>
       <p>モントリオール・アカデミー会の紹介と活動内容。</p>
     </a>
-    <a class="card" href="{{ '/start-living-in-montreal/' | relative_url }}">
-      <h3>生活情報</h3>
-      <p>渡航後の手続きや生活に必要な情報。</p>
+    <a class="card" href="{{ '/m/' | relative_url }}">
+      <h3>Montrealの生活情報</h3>
+      <p>モントリオール生活で役立つ実用情報をまとめています。</p>
     </a>
-    <a class="card" href="{{ '/news/' | relative_url }}">
-      <h3>Articles</h3>
-      <p>最新の記事とアーカイブ。</p>
+    <a class="card" href="{{ '/single-post/' | relative_url }}">
+      <h3>Blog</h3>
+      <p>研究・生活・文化に関する記事一覧。</p>
     </a>
-    <a class="card" href="{{ '/researcher-support/' | relative_url }}">
-      <h3>研究者支援情報</h3>
-      <p>研究者向けの支援・情報まとめ。</p>
+    <a class="card" href="{{ '/covid-19/' | relative_url }}">
+      <h3>COVID-19</h3>
+      <p>COVID-19関連の情報アーカイブ。</p>
+    </a>
+    <a class="card" href="https://www.facebook.com/groups/montrealca/?mibextid=6NoCDW" target="_blank" rel="noopener noreferrer">
+      <h3>モントリオール&カナダ東部情報共有</h3>
+      <p>現地の最新情報を共有するFacebookグループ。</p>
+    </a>
+    <a class="card" href="{{ '/contact/' | relative_url }}">
+      <h3>Contact Us</h3>
+      <p>入会・お問い合わせはこちら。</p>
+    </a>
+    <a class="card" href="https://www.welcome2mtl.com/" target="_blank" rel="noopener noreferrer">
+      <h3>Welcome to Montreal</h3>
+      <p>モントリオール生活スタートアップ支援サービス。</p>
     </a>
   </div>
 </section>

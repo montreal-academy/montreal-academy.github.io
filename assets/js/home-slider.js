@@ -116,14 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
     moved.forEach((el) => side.appendChild(el));
   }
 
-  // Remove standalone image blocks in main (avoid mismatched repeats)
-  Array.from(main.querySelectorAll('p')).forEach((p) => {
-    const imgs = p.querySelectorAll('img');
-    if (imgs.length === 1 && p.textContent.trim() === '') {
-      p.remove();
-    }
-  });
-
   // Link H2 titles to single-post pages when possible
   let postMap = new Map();
   const mapTag = document.getElementById('home-post-map');
@@ -135,6 +127,81 @@ document.addEventListener('DOMContentLoaded', () => {
       postMap = new Map();
     }
   }
+
+  // Build card grid from image + heading blocks in home main area.
+  const childrenForCards = Array.from(main.children);
+  const cardModels = [];
+  const nodesToRemove = new Set();
+
+  for (let i = 0; i < childrenForCards.length; i += 1) {
+    const first = childrenForCards[i];
+    if (!first || first.tagName !== 'P') continue;
+    const firstImg = first.querySelector('img');
+    if (!firstImg || first.textContent.trim() !== '') continue;
+
+    let heading = null;
+    let headingIndex = -1;
+    for (let j = i + 1; j < Math.min(i + 5, childrenForCards.length); j += 1) {
+      const next = childrenForCards[j];
+      if (!next) continue;
+      if (next.tagName === 'H2') {
+        heading = next;
+        headingIndex = j;
+        break;
+      }
+      if (next.tagName !== 'P') break;
+    }
+
+    if (!heading) continue;
+    const title = heading.textContent.trim();
+    const url = postMap.get(title);
+    cardModels.push({
+      title,
+      url: url || null,
+      imgSrc: firstImg.getAttribute('src') || '',
+      imgAlt: firstImg.getAttribute('alt') || title
+    });
+
+    nodesToRemove.add(first);
+    for (let j = i + 1; j < headingIndex; j += 1) {
+      const next = childrenForCards[j];
+      if (next && next.tagName === 'P' && next.querySelector('img') && next.textContent.trim() === '') {
+        nodesToRemove.add(next);
+      }
+    }
+    nodesToRemove.add(heading);
+    i = headingIndex;
+  }
+
+  if (cardModels.length > 0) {
+    const heading = document.createElement('h2');
+    heading.className = 'home-featured-title';
+    heading.textContent = 'Featured Articles';
+    const grid = document.createElement('div');
+    grid.className = 'home-blog-grid';
+
+    cardModels.forEach((model) => {
+      const card = document.createElement(model.url ? 'a' : 'article');
+      card.className = 'home-blog-card';
+      if (model.url) card.href = model.url;
+
+      const img = document.createElement('img');
+      img.src = model.imgSrc;
+      img.alt = model.imgAlt;
+
+      const title = document.createElement('h3');
+      title.textContent = model.title;
+
+      card.appendChild(img);
+      card.appendChild(title);
+      grid.appendChild(card);
+    });
+
+    nodesToRemove.forEach((node) => node.remove());
+    main.appendChild(heading);
+    main.appendChild(grid);
+  }
+
   Array.from(main.querySelectorAll('h2')).forEach((h2) => {
     const title = h2.textContent.trim();
     const url = postMap.get(title);

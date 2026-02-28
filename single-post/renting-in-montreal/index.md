@@ -51,7 +51,7 @@ source_url: https://www.montreal-academy.com/single-post/renting-in-montreal
 
 家主が国外に要るというのは詐欺の一般的な手口の場合があります、不動産所有者名簿で検索を
 
-https://servicesenligne2.ville.montreal.qc.ca/.../index
+https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index
 
 契約書
 
@@ -59,7 +59,7 @@ https://servicesenligne2.ville.montreal.qc.ca/.../index
 
 メールや電話のやり取りだけでは契約にならない
 
-https://www.tal.gouv.qc.ca/.../signing-a.../what-is-a-lease
+https://www.tal.gouv.qc.ca/en/signing-a-lease/what-is-a-lease
 
 個人情報漏洩
 

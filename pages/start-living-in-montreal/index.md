@@ -208,11 +208,11 @@ https://www.apartments.com/
 
 https://www.rentfaster.ca/
 
-https://www.kijiji.ca/.../apparteme.../c37l80002a29276001...
+https://www.kijiji.ca/b-appartement-condo/ville-de-montreal/c37l1700281
 
 https://montreal.craigslist.org/
 
-https://www.facebook.com/marketp.../montreal/propertyrentals
+https://www.facebook.com/marketplace/montreal/propertyrentals
 
 https://www.padmapper.com/apartments/montreal-qc
 
@@ -244,7 +244,7 @@ https://www.walkscore.com/CA-QC/Montr%25C3%25A9al
 
 家主が国外に要るというのは詐欺の一般的な手口の場合があります、不動産所有者名簿で検索を
 
-https://servicesenligne2.ville.montreal.qc.ca/.../index
+https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index
 
 契約書
 
@@ -252,11 +252,11 @@ https://servicesenligne2.ville.montreal.qc.ca/.../index
 
 メールや電話のやり取りだけでは契約にならない
 
-https://www.tal.gouv.qc.ca/.../signing-a.../what-is-a-lease
+https://www.tal.gouv.qc.ca/en/signing-a-lease/what-is-a-lease
 
 もらった契約書はケベック州の標準テンプレートと比較してみましょう
 
-https://boutique.publicationsduquebec.gouv.qc.ca/.../...
+https://www.quebec.ca/en/homes-and-housing/renting/leases
 
 個人情報漏洩
 

@@ -277,7 +277,7 @@ https://oshiete-dr.net/
 
 国立成育医療研究センターのスタッフによる情報発信
 
-https://www.ncchd.go.jp/news/2020/20200508.htm l
+https://www.ncchd.go.jp/news/2020/20200508.html
 
 - NHK for school
 
@@ -301,7 +301,7 @@ https://apps.apple.com/us/app/pibo-japanese-picture-books/id765195011
 
 英語のプログラム
 
-homeschool.com   （無料、低額のアクティビティもいくつかある。）
+https://www.homeschool.com/   （無料、低額のアクティビティもいくつかある。）
 
 https://mommypoppins.com/   （中には有料のものもあるが、ほとんどが無料）
 
