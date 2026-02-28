@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   </head>
-  <body class="{% if page.url == '/' %}page-home{% endif %}{% if page.url contains '/news/categories/' %} page-news-category{% endif %}{% if page.url contains '/single-post/' %} page-single-post{% endif %}{% if page.url contains '/montreal-canada-info/' %} page-montreal-guide{% endif %}">
+  <body class="{% if page.url == '/' %}page-home{% endif %}{% if page.url contains '/news/categories/' %} page-news-category{% endif %}{% if page.url contains '/single-post/' %} page-single-post{% endif %}{% if page.url contains '/montreal-canada-info/' %} page-montreal-guide{% endif %}{% if page.url contains '/start-living-in-montreal/' %} page-start-living{% endif %}">
     <div class="page">
       {% include nav.html %}
       <main class="main">
@@ -20,6 +20,9 @@
     </div>
     {% if page.url == '/' %}
     <script src="{{ '/assets/js/home-slider.js' | relative_url }}"></script>
+    {% endif %}
+    {% if page.url contains '/start-living-in-montreal/' %}
+    <script src="{{ '/assets/js/start-living-layout.js' | relative_url }}"></script>
     {% endif %}
     <script src="{{ '/assets/js/inline-mark.js' | relative_url }}"></script>
     {% if page.url contains '/news/categories/' %}

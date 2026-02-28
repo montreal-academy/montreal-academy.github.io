@@ -116,6 +116,71 @@ document.addEventListener('DOMContentLoaded', () => {
     moved.forEach((el) => side.appendChild(el));
   }
 
+  const normalizeDateText = (text) =>
+    text
+      .replace(/==/g, '')
+      .replace(/\s+/g, '')
+      .trim();
+
+  const isNewsDate = (text) => /^\d{4}年\d{1,2}月\d{1,2}日$/.test(normalizeDateText(text));
+
+  const formatHomeNews = (root) => {
+    if (!root || root.children.length === 0) return;
+
+    const childrenNow = Array.from(root.children);
+    const titleNode = childrenNow.find((el) => el.textContent.replace(/\s+/g, '').includes('新着情報'));
+    if (!titleNode) return;
+
+    const heading = document.createElement('h2');
+    heading.className = 'home-news-title';
+    heading.textContent = '新着情報';
+    titleNode.replaceWith(heading);
+
+    const nodes = Array.from(root.children).filter((el) => el !== heading);
+    if (nodes.length === 0) return;
+
+    const list = document.createElement('div');
+    list.className = 'home-news-list';
+    root.appendChild(list);
+
+    let current = null;
+    nodes.forEach((node) => {
+      const text = node.textContent.trim();
+      if (!text) {
+        node.remove();
+        return;
+      }
+
+      if (isNewsDate(text)) {
+        current = document.createElement('article');
+        current.className = 'home-news-item';
+
+        const date = document.createElement('p');
+        date.className = 'home-news-date';
+        date.textContent = normalizeDateText(text);
+        current.appendChild(date);
+
+        list.appendChild(current);
+        node.remove();
+        return;
+      }
+
+      if (!current) {
+        current = document.createElement('article');
+        current.className = 'home-news-item';
+        list.appendChild(current);
+      }
+
+      const body = document.createElement('p');
+      body.className = 'home-news-body';
+      body.innerHTML = node.innerHTML;
+      current.appendChild(body);
+      node.remove();
+    });
+  };
+
+  formatHomeNews(side);
+
   // Link H2 titles to single-post pages when possible
   let postMap = new Map();
   const mapTag = document.getElementById('home-post-map');
