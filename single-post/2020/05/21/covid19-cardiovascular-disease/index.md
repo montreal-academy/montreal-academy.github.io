@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Covid-19と循環器疾患'
-subtitle: '私は日本では成人先天性心疾患に限らず、循環器内科全般を専門としておりましたので、Covid-19と循環器内科全般について、最新の知見を報告したいと思います。（読まれる方のなかには医療関係ではない方もいらっしゃると思いますので、要点を絞って書かせて頂きたいと思います。） 日本、カナダを含む世界中の循環器内科医が危惧しているのは、いわゆる心臓発作; 急性冠症候群、急性心筋梗塞、急性大動脈解離の患者さんが、"Covid-19 にかかるリスクが高いから病院が恐い"と受診するのを躊躇して、亡くなってしまうことです。カナダのHeart and Strokeのサイトにも見出しに”Call 9-1-1 for heart attack, stroke or cardiac arrest. Do not hesitate to call 9-1-1, even during the corona virus pandemic. Hospitals are prepared. Don’t let COVID-19 destroy more lives.”とあります。https://www.heartand'
+subtitle: 'Covid-19と循環器疾患について、一般向けに要点をまとめた解説です。'
 permalink: /single-post/2020/05/21/covid19-cardiovascular-disease/
 date: 2020-05-21T17:39:03.848Z
 source_url: https://www.montreal-academy.com/single-post/2020/05/21/covid19-cardiovascular-disease

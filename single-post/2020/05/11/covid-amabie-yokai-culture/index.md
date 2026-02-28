@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'コロナとアマビエ現象と日本の妖怪文化'
-subtitle: 'アマビエの出現を伝える瓦版 。弘化3年4月中旬（西暦1846年5月上旬）刊行。木版画。京都大学附属図書館収蔵。https://rmda.kulib.kyoto-u.ac.jp/item/rb00000122 長引く自宅待機・外出制限の中、皆さまいかがお過ごしでしょうか。ご存知の方も多いと思いますが、新型コロナウイルスの感染拡大を契機に、日本では「アマビエ」という妖怪が注目を集め、大勢の人によって描かれたり様々な素材で人形などが作られたりしてSNS上を賑わしています（例えば＃アマビエでツイッター検索すると続々と出てきます）。アマビエ現象は海外でも話題になり、The New Yorkerに記事が掲載されたり（https://www.newyorker.com/culture/cultural-comment/from-japan-a-mascot-for-the-pandemic）、イタリアでも「ウィルス退治に日本から参上したアマビエ」を人々がイラスト化するというウェブサイトが好評だそうです。（https://amabieamontesanto.wixsite.com/amabieamon'
+subtitle: 'コロナ禍で注目されたアマビエ現象と日本の妖怪文化を紹介します。'
 permalink: /single-post/2020/05/11/covid-amabie-yokai-culture/
 date: 2020-05-11T14:32:55.997Z
 source_url: https://www.montreal-academy.com/single-post/2020/05/11/covid-amabie-yokai-culture

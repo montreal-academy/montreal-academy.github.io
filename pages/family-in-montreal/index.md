@@ -131,7 +131,7 @@ EMSBの管轄下に13のhigh schoolがある。
 
 School（高校）
 
-ケベック州では、小学校6年、高校5年、CEGEP2年（ https://ja.wikipedia.org/wiki/ シージェップ）と続く。
+ケベック州では、小学校6年、高校5年、CEGEP2年（ https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%97）と続く。
 
 高校編入のシステムは上記のEMSB登録と重なっており、同じ場所でできる。
 

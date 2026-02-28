@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'SDGs × マンガのチカラ'
-subtitle: 'SDGs×マンガのチカラの「感染症対策をマンガのチカラで！」のプロジェクトにて、著名な8人の漫画家が無料で画像を公開しています。https://sdgs-manga.com/?p=3565'
+subtitle: 'SDGs×マンガのチカラの「感染症対策をマンガのチカラで!」プロジェクト紹介。'
 permalink: /single-post/2020/05/12/sdgs-manga-power/
 date: 2020-05-12T19:47:17.019Z
 source_url: https://www.montreal-academy.com/single-post/2020/05/12/sdgs-manga-power
