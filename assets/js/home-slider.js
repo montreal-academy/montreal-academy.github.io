@@ -46,49 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   let slider = null;
-  if (imageBlocks.length >= 2) {
-    slider = document.createElement('div');
-    slider.className = 'hero-slider';
-
-    const track = document.createElement('div');
-    track.className = 'hero-slider__track';
-
-    const slides = imageBlocks.slice(0, 3);
-    slides.forEach((block) => {
-      const img = block.querySelector('img');
-      const slide = document.createElement('div');
-      slide.className = 'hero-slider__slide';
-      slide.appendChild(img);
-      track.appendChild(slide);
-      block.remove();
-    });
-    imageBlocks.slice(3).forEach((block) => block.remove());
-
-    const prev = document.createElement('button');
-    prev.className = 'hero-slider__nav hero-slider__nav--prev';
-    prev.type = 'button';
-    prev.setAttribute('aria-label', 'Previous image');
-    prev.textContent = '‹';
-
-    const next = document.createElement('button');
-    next.className = 'hero-slider__nav hero-slider__nav--next';
-    next.type = 'button';
-    next.setAttribute('aria-label', 'Next image');
-    next.textContent = '›';
-
-    slider.appendChild(track);
-    slider.appendChild(prev);
-    slider.appendChild(next);
-
-    content.insertBefore(slider, content.firstChild);
-
-    const scrollBySlide = (dir) => {
-      const width = track.clientWidth;
-      track.scrollBy({ left: dir * width, behavior: 'smooth' });
-    };
-
-    prev.addEventListener('click', () => scrollBySlide(-1));
-    next.addEventListener('click', () => scrollBySlide(1));
+  // Remove the top image-only blocks; no center slider section on homepage.
+  if (imageBlocks.length > 0) {
+    imageBlocks.forEach((block) => block.remove());
   }
 
   // Split content into main and sidebar (news)
