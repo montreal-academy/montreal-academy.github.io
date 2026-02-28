@@ -23,6 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
+  const removeImageOnlyParagraphs = (root) => {
+    Array.from(root.querySelectorAll('p')).forEach((p) => {
+      if (p.children.length === 1 && p.firstElementChild?.tagName === 'IMG' && p.textContent.trim() === '') {
+        p.remove();
+      }
+    });
+  };
+
   const blocks = Array.from(content.children);
   const imageBlocks = [];
 
@@ -37,50 +45,51 @@ document.addEventListener('DOMContentLoaded', () => {
     break;
   }
 
-  if (imageBlocks.length < 2) return;
+  let slider = null;
+  if (imageBlocks.length >= 2) {
+    slider = document.createElement('div');
+    slider.className = 'hero-slider';
 
-  const slider = document.createElement('div');
-  slider.className = 'hero-slider';
+    const track = document.createElement('div');
+    track.className = 'hero-slider__track';
 
-  const track = document.createElement('div');
-  track.className = 'hero-slider__track';
+    const slides = imageBlocks.slice(0, 3);
+    slides.forEach((block) => {
+      const img = block.querySelector('img');
+      const slide = document.createElement('div');
+      slide.className = 'hero-slider__slide';
+      slide.appendChild(img);
+      track.appendChild(slide);
+      block.remove();
+    });
+    imageBlocks.slice(3).forEach((block) => block.remove());
 
-  const slides = imageBlocks.slice(0, 3);
-  slides.forEach((block) => {
-    const img = block.querySelector('img');
-    const slide = document.createElement('div');
-    slide.className = 'hero-slider__slide';
-    slide.appendChild(img);
-    track.appendChild(slide);
-    block.remove();
-  });
-  imageBlocks.slice(3).forEach((block) => block.remove());
+    const prev = document.createElement('button');
+    prev.className = 'hero-slider__nav hero-slider__nav--prev';
+    prev.type = 'button';
+    prev.setAttribute('aria-label', 'Previous image');
+    prev.textContent = '‹';
 
-  const prev = document.createElement('button');
-  prev.className = 'hero-slider__nav hero-slider__nav--prev';
-  prev.type = 'button';
-  prev.setAttribute('aria-label', 'Previous image');
-  prev.textContent = '‹';
+    const next = document.createElement('button');
+    next.className = 'hero-slider__nav hero-slider__nav--next';
+    next.type = 'button';
+    next.setAttribute('aria-label', 'Next image');
+    next.textContent = '›';
 
-  const next = document.createElement('button');
-  next.className = 'hero-slider__nav hero-slider__nav--next';
-  next.type = 'button';
-  next.setAttribute('aria-label', 'Next image');
-  next.textContent = '›';
+    slider.appendChild(track);
+    slider.appendChild(prev);
+    slider.appendChild(next);
 
-  slider.appendChild(track);
-  slider.appendChild(prev);
-  slider.appendChild(next);
+    content.insertBefore(slider, content.firstChild);
 
-  content.insertBefore(slider, content.firstChild);
+    const scrollBySlide = (dir) => {
+      const width = track.clientWidth;
+      track.scrollBy({ left: dir * width, behavior: 'smooth' });
+    };
 
-  const scrollBySlide = (dir) => {
-    const width = track.clientWidth;
-    track.scrollBy({ left: dir * width, behavior: 'smooth' });
-  };
-
-  prev.addEventListener('click', () => scrollBySlide(-1));
-  next.addEventListener('click', () => scrollBySlide(1));
+    prev.addEventListener('click', () => scrollBySlide(-1));
+    next.addEventListener('click', () => scrollBySlide(1));
+  }
 
   // Split content into main and sidebar (news)
   const children = Array.from(content.children).filter((el) => el !== slider);
@@ -280,5 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
     h2.appendChild(link);
   });
 
+  removeImageOnlyParagraphs(main);
+  removeImageOnlyParagraphs(side);
   dedupeConsecutiveImages(content);
 });
