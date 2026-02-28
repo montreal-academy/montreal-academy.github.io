@@ -37,6 +37,8 @@ source_url: https://www.montreal-academy.com/about
   - Hiroaki Sato, MD, PhD
   - Dept. Anesthesia, Royal Victoria Hospital, McGill University Health Centre
 
+### 副幹事
+
 - 富田紀男
   - Norio Tomita
   - Atelier Tomita Inc. President
@@ -75,4 +77,3 @@ source_url: https://www.montreal-academy.com/about
 
 当会会員のマギル大学名誉教授の井川スミス史子先生の『考古学の歴史書』です。是非ご一読 下さい。
 
-構成メンバー
