@@ -590,6 +590,12 @@ a:hover {
   margin: 0;
 }
 
+.home-blog-card__placeholder {
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(135deg, rgba(193, 84, 46, 0.14), rgba(46, 106, 155, 0.16));
+}
+
 .home-blog-card h3 {
   font-size: 1rem;
   padding: 12px 14px 0;

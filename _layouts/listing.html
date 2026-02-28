@@ -27,29 +27,57 @@ layout: default
 
   {% assign items = site.pages | where_exp: "p", "p.url contains page.filter_prefix" | where_exp: "p", "p.url != page.url" | sort: "date" | reverse %}
   {% if items.size > 0 %}
-    <div class="cards">
-      {% for item in items %}
-        <a class="post-card" href="{{ item.url | relative_url }}">
-          <div class="post-card__body">
-            <p class="post-card__date">{% if item.date %}{{ item.date | date: "%Y-%m-%d" }}{% endif %}</p>
-            <h3>{{ item.title }}</h3>
-            {% if item.subtitle %}
-              {% if item.subtitle contains '。' %}
-                {% assign _sentences = item.subtitle | split: '。' %}
-                {% assign _excerpt = _sentences | slice: 0, 3 | join: '。' %}
-                <p class="post-card__excerpt">{{ _excerpt }}{% if _excerpt != '' %}。{% endif %}</p>
-              {% elsif item.subtitle contains '.' %}
-                {% assign _sentences = item.subtitle | split: '.' %}
-                {% assign _excerpt = _sentences | slice: 0, 3 | join: '.' %}
-                <p class="post-card__excerpt">{{ _excerpt }}{% if _excerpt != '' %}.{% endif %}</p>
-              {% else %}
-                <p class="post-card__excerpt">{{ item.subtitle }}</p>
-              {% endif %}
+    {% if page.filter_prefix == '/single-post/' %}
+      <h2 class="home-featured-title">Featured Articles</h2>
+      <div class="home-blog-grid">
+        {% for item in items %}
+          {% assign first_img = '' %}
+          {% assign img_chunks = item.content | split: '![' %}
+          {% if img_chunks.size > 1 %}
+            {% assign img_bits = img_chunks[1] | split: '](' %}
+            {% if img_bits.size > 1 %}
+              {% assign first_img = img_bits[1] | split: ')' | first | strip %}
             {% endif %}
-          </div>
-        </a>
-      {% endfor %}
-    </div>
+          {% endif %}
+          <a class="home-blog-card{% if first_img == '' %} home-blog-card--no-image{% endif %}" href="{{ item.url | relative_url }}">
+            {% if first_img != '' %}
+              {% if first_img contains '://' %}
+                <img src="{{ first_img }}" alt="{{ item.title }}" loading="lazy" />
+              {% else %}
+                <img src="{{ first_img | relative_url }}" alt="{{ item.title }}" loading="lazy" />
+              {% endif %}
+            {% else %}
+              <div class="home-blog-card__placeholder" aria-hidden="true"></div>
+            {% endif %}
+            <h3>{{ item.title }}</h3>
+          </a>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="cards">
+        {% for item in items %}
+          <a class="post-card" href="{{ item.url | relative_url }}">
+            <div class="post-card__body">
+              <p class="post-card__date">{% if item.date %}{{ item.date | date: "%Y-%m-%d" }}{% endif %}</p>
+              <h3>{{ item.title }}</h3>
+              {% if item.subtitle %}
+                {% if item.subtitle contains '。' %}
+                  {% assign _sentences = item.subtitle | split: '。' %}
+                  {% assign _excerpt = _sentences | slice: 0, 3 | join: '。' %}
+                  <p class="post-card__excerpt">{{ _excerpt }}{% if _excerpt != '' %}。{% endif %}</p>
+                {% elsif item.subtitle contains '.' %}
+                  {% assign _sentences = item.subtitle | split: '.' %}
+                  {% assign _excerpt = _sentences | slice: 0, 3 | join: '.' %}
+                  <p class="post-card__excerpt">{{ _excerpt }}{% if _excerpt != '' %}.{% endif %}</p>
+                {% else %}
+                  <p class="post-card__excerpt">{{ item.subtitle }}</p>
+                {% endif %}
+              {% endif %}
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
   {% else %}
     <p>記事は準備中です。</p>
   {% endif %}
