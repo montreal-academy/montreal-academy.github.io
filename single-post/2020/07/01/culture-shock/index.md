@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'カルチャーショック'
 subtitle: '2018年7月より2年間、McGill University Health CentreのRoyal Victoria Hospital (RVH) 麻酔科に、Cardiac Anesthesia Research Fellowとして留学しました。留学中は、術後認知機能障害(Postoperative cognitive dysfunction: POCD)の治療法として期待されるインスリン経鼻投与に関する臨床研究および、虚血心筋モデルのラット心臓に対するグルタミンの心保護効果に関する基礎研究を行いました。 さて、今回は私が留学中に経験した「日本ではまず起こらない出来事」を振り返ってみたいと思います。留学生活を始めたばかりの頃、上司である佐藤先生ご夫妻に「こちらの生活では物事が思った通りに進まなくて当たり前だから」と言われました。初めにこの言葉を聞いていなければ、生活に馴染むまでにもっとストレスを感じていたかもしれません。私にとって非常に印象に残る出来事でした。 ①Social Insurance Number (SIN)が発行されない　（珍しい出来事のようです）SINは仕事や生活の様'
 permalink: /single-post/2020/07/01/culture-shock/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/07/01/culture-shoc
 ---
 
 - 川上亜希子　マギル大学麻酔科 リサーチフェロー
-
 - 2020年7月1日
-
 - 読了時間: 4分
 
 2018年7月より2年間、McGill University Health CentreのRoyal Victoria Hospital (RVH) 麻酔科に、Cardiac Anesthesia Research Fellowとして留学しました。留学中は、術後認知機能障害(Postoperative cognitive dysfunction: POCD)の治療法として期待されるインスリン経鼻投与に関する臨床研究および、虚血心筋モデルのラット心臓に対するグルタミンの心保護効果に関する基礎研究を行いました。

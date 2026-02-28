@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'モントリオールでの妊娠・出産の記録'
 subtitle: 'はじめに私は、モントリオール大学でポスドクをしている夫の同行家族として、2021年2月にモントリオールにやってきました。2021年の年末に妊娠が分かり、翌年の秋に第一子をモントリオール大学の大学病院（CHUM）で出産しました。私たちは日本人夫婦で、保険証（RAMQ）有り、ファミリードクター無し、永住権無しという状況で、産科の先生を探すところから苦労しました。さらに、日本とカナダの違いに戸惑うことや困ったことも多々あり、次に出産される方に私たちの体験を役立ててほしいと思い、このレポートにまとめさせていただきました。ただ、病院によっては異なる対応が必要になる可能性もあるので、一個人の場合と捉えていただけますと幸いです。産科の先生探し妊娠検査薬で陽性がでて、まずは産科の先生探しから始めました。通常はファミリードクターに診てもらった後、産科の先生に診てもらうようなのですが、ファミリードクターがいない私たちは、直接、産科の先生に診てもらおうと考えました。知人から、CLSC（日本の保健所に近い施設）で産科の先生の連絡先リストを貰えると聞き、近くのCLSCに直接行ってみたのですが、当時はコロナの影響'
 permalink: /single-post/montreal-pregnancy-childbirth/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/montreal-pregnancy-chil
 ---
 
 - 北原 沙紀
-
 - 2023年5月1日
-
 - 読了時間: 11分
 
 ![](/assets/images/imported/single-post--f798e5ba79b5.jpg)
@@ -27,11 +25,11 @@ source_url: https://www.montreal-academy.com/single-post/montreal-pregnancy-chil
 
 - Postal codeから管轄のCIUSSSを探せます
 
-Integrated health and social services centres (CISSS) and integrated university health and social services centres (CIUSSS) | Gouvernement du Québec
+Integrated health and social services centres (CISSS) and integrated university health and social services centres (CIUSSS) \| Gouvernement du Québec
 
 - 私たちが連絡した CIUSSS のウェブサイト
 
-https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/grossesse-et-soins-aux-bebes/grossesse/suivi-de-grossesse
+[https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/grossesse-et-soins-aux-bebes/grossesse/suivi-de-grossesse](https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/grossesse-et-soins-aux-bebes/grossesse/suivi-de-grossesse)
 
 ## 妊娠初期～中期
 
@@ -61,7 +59,7 @@ CHUMで分娩・出産
 
 ※2：Clic Santé の ウェブサイト
 
-https://portal3.clicsante.ca/
+[https://portal3.clicsante.ca/](https://portal3.clicsante.ca/)
 
 ## 妊娠後期～出産
 
@@ -83,7 +81,7 @@ https://portal3.clicsante.ca/
 
 ※3：産後の訪問フォローアップについて
 
-https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/grossesse-et-soins-aux-bebes/grossesse/suivi-la-maison-apres-laccouchement
+[https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/grossesse-et-soins-aux-bebes/grossesse/suivi-la-maison-apres-laccouchement](https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/grossesse-et-soins-aux-bebes/grossesse/suivi-la-maison-apres-laccouchement)
 
 ## 産後の行政手続き
 

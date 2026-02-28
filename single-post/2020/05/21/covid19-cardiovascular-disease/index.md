@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'Covid-19と循環器疾患'
 subtitle: 'Covid-19と循環器疾患について、一般向けに要点をまとめた解説です。'
 permalink: /single-post/2020/05/21/covid19-cardiovascular-disease/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/21/covid19-card
 ---
 
 - 小平　真幸 マギル大学成人先天性心疾患フェロー
-
 - 2020年5月21日
-
 - 読了時間: 6分
 
 私は日本では成人先天性心疾患に限らず、循環器内科全般を専門としておりましたので、Covid-19と循環器内科全般について、最新の知見を報告したいと思います。（読まれる方のなかには医療関係ではない方もいらっしゃると思いますので、要点を絞って書かせて頂きたいと思います。）

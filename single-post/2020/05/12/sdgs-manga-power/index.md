@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'SDGs × マンガのチカラ'
 subtitle: 'SDGs×マンガのチカラの「感染症対策をマンガのチカラで!」プロジェクト紹介。'
 permalink: /single-post/2020/05/12/sdgs-manga-power/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/12/sdgs-manga-p
 ---
 
 - 佐藤宏明
-
 - 2020年5月12日
-
 - 読了時間: 1分
 
 更新日： 2020年12月12日
@@ -36,5 +34,4 @@ SDGs×マンガのチカラの「感染症対策をマンガのチカラで！�
 タグ：
 
 - COVID19
-
 - 情報

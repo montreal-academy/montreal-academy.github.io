@@ -266,6 +266,46 @@ a:hover {
   border-top: 1px solid var(--border);
 }
 
+.post-hero {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.7));
+}
+
+.post-hero__date {
+  margin: 0 0 10px;
+  font-size: 0.84rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+
+.post-content {
+  max-width: 860px;
+}
+
+.page-single-post .post-content > ul:first-of-type {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.page-single-post .post-content > ul:first-of-type li {
+  margin: 0;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  font-size: 0.92rem;
+  line-height: 1.3;
+}
+
+.page-single-post .post-content > ul:first-of-type li:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
 .page-single-post .content p {
   margin: 0 0 16px;
 }

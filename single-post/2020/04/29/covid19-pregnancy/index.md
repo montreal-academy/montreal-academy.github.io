@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'COVID19と妊産婦について'
 subtitle: 'COVID19と妊産婦（2020年4月27日版） 妊産婦さんも、COVID19はとても心配されていると思います。現状では、まとまった資料は少なく、分からないことだらけなのですが、日本語の資料も少しですがあります。Web資料としては、厚生労働省と日本産科婦人科学会が出しております。http://www.jsog.or.jp/modules/jsogpolicy/index.php?content_id=10 未だ妊産婦への影響、胎児、新生児への影響が分からないこともあり、不妊治療を専門とする、日本生殖医学会は4月1日に声明を出しております。基本的には、不妊治療の延期を考慮して下さいという内容です。http://www.jsrm.or.jp/announce/187.pdf また、妊産婦さんと治療薬に関する件は、速報版ですが、以下になります。http://www.jsog.or.jp/modules/news_m/index.php?content_id=779 日本では、感染地域にばらつきがありますが、里帰り分娩をされる患者さんには、早めに里帰りをして頂き、2週間自宅待'
 permalink: /single-post/2020/04/29/covid19-pregnancy/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/04/29/covid19-preg
 ---
 
 - 羽田智則　(Tomonori Hada M.D) 倉敷成人病センター 人材教育開発センター
-
 - 2020年4月29日
-
 - 読了時間: 1分
 
 COVID19と妊産婦（2020年4月27日版）
@@ -34,5 +32,4 @@ COVID19について分からないことがまだまだあり、ご心配にな�
 タグ：
 
 - COVID19
-
 - 医療

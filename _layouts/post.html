@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="page-hero post-hero">
+  <div class="page-hero__inner">
+    <p class="eyebrow">Montreal Academy</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="post-hero__date">{{ page.date | date: "%Y-%m-%d" }}</p>
+    {% endif %}
+    {% if page.subtitle %}
+      {% assign subtitle_len = page.subtitle | size %}
+      {% if subtitle_len < 180 %}
+        <p class="lead">{{ page.subtitle }}</p>
+      {% endif %}
+    {% endif %}
+  </div>
+</section>
+
+<article class="content post-content">
+  {{ content }}
+</article>

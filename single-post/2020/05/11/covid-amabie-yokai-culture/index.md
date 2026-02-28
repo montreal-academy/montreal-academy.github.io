@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'コロナとアマビエ現象と日本の妖怪文化'
 subtitle: 'コロナ禍で注目されたアマビエ現象と日本の妖怪文化を紹介します。'
 permalink: /single-post/2020/05/11/covid-amabie-yokai-culture/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/11/covid-amabie
 ---
 
 - 武末　明子 モントリオール美術館日本美術研究員
-
 - 2020年5月11日
-
 - 読了時間: 5分
 
 更新日： 2023年5月5日
@@ -84,5 +82,4 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/11/covid-amabie
 タグ：
 
 - COVID19
-
 - 情報

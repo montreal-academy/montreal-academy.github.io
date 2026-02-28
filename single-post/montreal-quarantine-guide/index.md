@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'モントリオールでの隔離(Quarantine)について'
 subtitle: 'McGill University Health Centre で2020年12月からCardiac anesthesia research fellowとして働くことになりました大宮啓輔と申します。今回、Covid 19が流行中にモントリオールに入国、2週間隔離という経験をしましたので、その経験について記載させて頂きます。[飛行機]　飛行機はモントリオールへの直行便はありませんでしたので、エアカナダのトロント経由モントリオール行きを選択しました。 2020/11/21 AC002 (18:00 NRT 成田→16:00 YYZ トロント)、AC428 (21:00 YYZ→22:16 モントリオール)。　スーツケースといった預け荷物は国内線に乗り換えるのでトロントでピックアップかと思いましたが、モントリオールでピックアップで良いですと言われました。　飛行機のチケット発行時や飛行機搭乗前などに体温測定、Arrive CANというアプリを入手したかと聞かれました。Covid 19の検査は、まだありませんでした。[Arrive Can]　カナダ入国48時間前からArrive Canというア'
 permalink: /single-post/montreal-quarantine-guide/
@@ -8,16 +8,14 @@ source_url: https://www.montreal-academy.com/single-post/montreal-quarantine-gui
 ---
 
 - 大宮啓輔
-
 - 2020年12月11日
-
 - 読了時間: 3分
 
 更新日： 2023年5月5日
 
 McGill University Health Centre で2020年12月からCardiac anesthesia research fellowとして働くことになりました大宮啓輔と申します。今回、Covid 19が流行中にモントリオールに入国、2週間隔離という経験をしましたので、その経験について記載させて頂きます。
 
-[飛行機]
+## 飛行機
 
 飛行機はモントリオールへの直行便はありませんでしたので、エアカナダのトロント経由モントリオール行きを選択しました。
 
@@ -27,21 +25,21 @@ McGill University Health Centre で2020年12月からCardiac anesthesia research
 
 飛行機のチケット発行時や飛行機搭乗前などに体温測定、Arrive CANというアプリを入手したかと聞かれました。Covid 19の検査は、まだありませんでした。
 
-[Arrive Can]
+## Arrive Can
 
-カナダ入国48時間前からArrive Canというアプリを介して隔離プランを入力する必要があります。私は成田空港出発前に入力しました。Arrive Canの入力方法については留学エージェントさんのサイトに詳しく記載があります ( Arrive CAN｜申請方法と渡航後の利用方法【2020年11月25日最新版】 | カナダ留学コンパス (canada-school.com)  )。入力時、カナダでつながる携帯電話番号が必要でした。私は、日本で使っていたiPhoneをSIMフリーにして、カナダのPhoneBoxの携帯電話番号を日本の代理店を通して契約しました。他に良い方法がたくさんあると思いますが、私には難しかったです。
+カナダ入国48時間前からArrive Canというアプリを介して隔離プランを入力する必要があります。私は成田空港出発前に入力しました。Arrive Canの入力方法については留学エージェントさんのサイトに詳しく記載があります ( Arrive CAN｜申請方法と渡航後の利用方法【2020年11月25日最新版】 \| カナダ留学コンパス (canada-school.com)  )。入力時、カナダでつながる携帯電話番号が必要でした。私は、日本で使っていたiPhoneをSIMフリーにして、カナダのPhoneBoxの携帯電話番号を日本の代理店を通して契約しました。他に良い方法がたくさんあると思いますが、私には難しかったです。
 
-[入国審査、Work permit 取得]
+## 入国審査、Work permit 取得
 
 入国審査、Work permitはトロントの空港で行いました。Arrive CanのReceiptの画面をみせて、POE letterをみせてWork permitを発行してもらい、間違いがないか確認しました。1時間ぐらいでした。Covid 19の検査はまだありませんでした。
 
 ![](/assets/images/imported/single-post-quarantine--de03079993db.jpg)
 
-[国内線でトロントからモントリオールへ]
+## 国内線でトロントからモントリオールへ
 
 国内線でモントリオールへ向かい、荷物をピックアップしました。モントリオールの空港から隔離先のホテルまではタクシーで行きました。ホテルはMcGill大学と提携していて割引プランがあったHotel Le Cantlie Suitesというところに泊まりました。ホテル宿泊先の選択に関しては特に制限はなかったと思います。
 
-[ホテル到着後]
+## ホテル到着後
 
 カナダ入国後48時間以内にArrive Canを通してか電話して連絡してほしいということでしたが、Arrive Canにそのような項目もなく、到着したのが夜中だったのですぐ寝てしまいました。
 
@@ -49,7 +47,7 @@ McGill University Health Centre で2020年12月からCardiac anesthesia research
 
 ![](/assets/images/imported/single-post-quarantine--84064bab044b.jpg)
 
-[隔離中の生活]
+## 隔離中の生活
 
 隔離先のホテルから出ると罰金の可能性がありましたので、食事はUber Eatsで出前したり、metroやIGAといったスーパーの配達を利用しました。
 

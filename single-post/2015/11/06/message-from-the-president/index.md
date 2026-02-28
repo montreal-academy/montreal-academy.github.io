@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'Message from the President'
 subtitle: 'In the past year, many notable events have taken place.   1.  I retired from the McGill University Health Centre (MUHC) after 53 years of service as a surgical oncologist, a teacher and research scientist as of Dec 31 2014.  2.  My wife, Nachiko and I decided to leave Montreal in October 2015, after living here for 54 years and move to Ottawa to live with my younger son and his family.    3.  I agreed to continue as President of the Montreal Academy Club, now in its 52 years of existence until'
 permalink: /single-post/2015/11/06/message-from-the-president/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2015/11/06/message-from
 ---
 
 - Henry R Shibata
-
 - 2015年11月6日
-
 - 読了時間: 2分
 
 ![](/assets/images/imported/single-post-2015-11-06-message-from-the-president-a13c68d93892.jpg)
@@ -62,5 +60,4 @@ Henry R Shibata MD MSc FACS FRCSC
 タグ：
 
 - イベント
-
 - 情報

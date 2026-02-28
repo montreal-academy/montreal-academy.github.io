@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'モントリオールでの賃貸物件の探し方'
 subtitle: '留学を成功させるために、まず第一にどこに住むかが大切ですね。お薦めののエリアは、ダウンタウン、Westmount、NDG(Notre-Dame-de-Grace)、Plateau、CDN (Cote-des-Neiges)などです。大まかに言うと、モントリオール島の真ん中にある山（Mount Royal Park）の西側が英語圏、東側がフランス語圏のため、ダウンタウン（山の南側）から、西側のエリアが日本人に人気です。冬場は長く厳しい寒さが続くのでSTMのメトロの駅の徒歩圏内をおすすめします。お子様がいる場合は、学校の位置も大切ですね。　EMSBにおける小学校、ハイスクール（日本の中学、高校）の地図をチェックしてみましょう。　モントリオールで家族向けの住まいを探す場合、日本からインターネットなどを利用して部屋を探すことも可能 (例えば検索サイト Realtor Ca)ではありますが、契約する際は、必ず物件を確認しましょう（架空の物件をオンラインで契約し、前金を騙し取られるケースがありました）。こちらの住まいの多くが1年単位の長期契約となり、途中での解約は原則出来ません。モントリオールでは'
 permalink: /single-post/renting-in-montreal/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/renting-in-montreal
 ---
 
 - 佐藤宏明
-
 - 2025年3月5日
-
 - 読了時間: 5分
 
 更新日： 2025年4月9日
@@ -51,7 +49,7 @@ source_url: https://www.montreal-academy.com/single-post/renting-in-montreal
 
 家主が国外に要るというのは詐欺の一般的な手口の場合があります、不動産所有者名簿で検索を
 
-https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index
+[https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index](https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index)
 
 契約書
 
@@ -59,7 +57,7 @@ https://servicesenligne2.ville.montreal.qc.ca/sel/evalweb/index
 
 メールや電話のやり取りだけでは契約にならない
 
-https://www.tal.gouv.qc.ca/en/signing-a-lease/what-is-a-lease
+[https://www.tal.gouv.qc.ca/en/signing-a-lease/what-is-a-lease](https://www.tal.gouv.qc.ca/en/signing-a-lease/what-is-a-lease)
 
 個人情報漏洩
 
@@ -78,9 +76,7 @@ https://www.tal.gouv.qc.ca/en/signing-a-lease/what-is-a-lease
 支払い
 
 - 正式な契約締結前に支払をしてはいけない
-
 - 家主は最初の月の家賃以外の敷金や手数料を要求してはいけない、要求されても支払わない
-
 - 仮想通貨などの追跡不可能な支払い方法は支払った証明が出来ないため危険、求められても応じないように
 
 契約時期・引っ越し

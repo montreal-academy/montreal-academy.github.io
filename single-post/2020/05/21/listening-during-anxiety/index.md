@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: '不安な時に何をどう聴く？'
 subtitle: 'ーセルフケアとして音楽を聴く時のポイントー クリック一つで好きな音楽にアクセスできる昨今、音楽を聴いて自宅での時間を過ごしている方も多いと思います。不安やストレスを感じた時に音楽を聴くことの意義と、聴く時のポイントをまとめてみました。  1. 音楽を聴くと音楽を聴いている間、脳の中では認知、運動、感覚、情緒など、さまざまな機能を司る部分が活性化しています。では、ストレスや不安を感じている時に音楽を聴くと、どうなるのでしょう？ストレスや不安に晒されている間、体内にはストレスホルモン（コルチゾール、アドレナリン、ノルアドレナリン）が分泌され続けています。心を動かされる音楽を聴くと、こうしたストレス反応の源になる「危険感知センサー」の扁桃体の働きが抑えられ、さらには・ドーパミンの増加（幸せ感、達成感、やる気、集中力、記憶力の高まり）  ・セロトニンの増加（心の安定、やる気や集中力の高まり、睡眠の質の向上）  ・オキシトシンの増加（ストレスの軽減）  ・ストレスによって過剰分泌されたコルチゾールの低下などの作用が体内で起こります。また、不安な時に「自分の聴きたい曲」や「自分の聴きたいジャンルの'
 permalink: /single-post/2020/05/21/listening-during-anxiety/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/21/listening-du
 ---
 
 - 貫洞麻子 Saint Margaret Day Center/YMCA Residence
-
 - 2020年5月22日
-
 - 読了時間: 8分
 
 ーセルフケアとして音楽を聴く時のポイントー
@@ -24,11 +22,8 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/21/listening-du
 ストレスや不安に晒されている間、体内にはストレスホルモン（コルチゾール、アドレナリン、ノルアドレナリン）が分泌され続けています。心を動かされる音楽を聴くと、こうしたストレス反応の源になる「危険感知センサー」の扁桃体の働きが抑えられ、さらには
 
 - ドーパミンの増加（幸せ感、達成感、やる気、集中力、記憶力の高まり）
-
 - セロトニンの増加（心の安定、やる気や集中力の高まり、睡眠の質の向上）
-
 - オキシトシンの増加（ストレスの軽減）
-
 - ストレスによって過剰分泌されたコルチゾールの低下
 
 などの作用が体内で起こります。
@@ -99,7 +94,7 @@ sumika『ふっかつのじゅもん』　https://www.youtube.com/watch?v=mSe8zH
 
 Ella Fitzgerald 『On the Sunny Side of the Street』(Live March 11,1961)
 
-https://www.youtube.com/watch?v=JiNaVmWlbnM
+[https://www.youtube.com/watch?v=JiNaVmWlbnM](https://www.youtube.com/watch?v=JiNaVmWlbnM)
 
 Madison Cunningham『Something To Believe In』https://www.youtube.com/watch?v=htFyGOwna_Q
 

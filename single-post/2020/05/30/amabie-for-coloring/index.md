@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'Amabie for coloring'
 subtitle: 'Download for coloring、ぬりえ用  ご自由に使って下さい'
 permalink: /single-post/2020/05/30/amabie-for-coloring/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/30/amabie-for-c
 ---
 
 - 佐藤宏明
-
 - 2020年5月30日
-
 - 読了時間: 1分
 
 ![](/assets/images/imported/single-post-2020-05-30-amabie-for-coloring-9f5cbd677423.jpg)

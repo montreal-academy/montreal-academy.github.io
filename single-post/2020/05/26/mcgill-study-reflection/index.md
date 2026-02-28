@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 'McGill大学での留学を振り返って'
 subtitle: '2016年7月より2年間、McGill University Health Centre、Royal Victoria Hospital 麻酔科（Dr. Thomas Schricker, Dr. Hiroaki Sato 師事 [専門は心臓手術と栄養・代謝] ）にて臨床研究、基礎研究をおこないました。 留学中の研究臨床研究では心臓手術をうける患者さんに同意を得て術後認知機能障害(Postoperative cognitive dysfunction: POCD)とその治療法（インスリン静脈投与、経鼻投与）について研究を行いました。基礎研究では心臓手術における人工心肺を想定したラットモデルで栄養と心筋虚血再灌流障害についての研究の立ち上げを行いました。まずはDowntownの研究室(Dr. Khoutorsky)の協力を得て、実験を行い、後任の川上先生に引き継いで継続してもらっています。今後はRoyal Victoria Hospitalの隣のResearch Instituteに引っ越す予定です。また同研究室でのマウスの用いたイソフルラン全身麻酔によるPOCDの機序、治療法についての'
 permalink: /single-post/2020/05/26/mcgill-study-reflection/
@@ -8,9 +8,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/26/mcgill-study
 ---
 
 - 中楯　陽介 Department of Anesthesia
-
 - 2020年5月26日
-
 - 読了時間: 4分
 
 更新日： 2023年5月5日
@@ -58,7 +56,5 @@ McGill大学麻酔科の上司である佐藤先生夫妻に公私とも大変�
 タグ：
 
 - 研究留学
-
 - 留学記
-
 - 研究紹介
