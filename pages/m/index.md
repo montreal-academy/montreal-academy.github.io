@@ -63,6 +63,7 @@ source_url: https://www.montreal-academy.com/m
   <article class="guide-card">
     <h3>コミュニティ・情報共有</h3>
     <ul>
+      <li><a href="/researcher-support/">研究者支援情報</a></li>
       <li><a href="https://www.facebook.com/groups/mtlecjk2020" target="_blank" rel="noopener noreferrer">モントリオール&カナダ東部情報共有（Facebook）</a></li>
       <li><a href="https://www.welcome2mtl.com/" target="_blank" rel="noopener noreferrer">Welcome to Montreal</a></li>
       <li><a href="/single-post/">Blog記事一覧</a></li>
