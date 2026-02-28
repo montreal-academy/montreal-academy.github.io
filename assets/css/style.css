@@ -117,9 +117,10 @@ a:hover {
   left: 50%;
   width: 100vw;
   max-width: none;
-  top: 50%;
-  height: clamp(180px, 28vw, 300px);
-  transform: translate(-50%, -50%) scale(1.02);
+  top: 34px;
+  bottom: 18px;
+  height: auto;
+  transform: translateX(-50%) scale(1.02);
   background-image: url("/assets/images/imported/home-4c9308c481ee.jpeg");
   background-size: cover;
   background-position: center;
@@ -700,15 +701,9 @@ a:hover {
 }
 
 .page-home .hero h1 {
-  white-space: nowrap;
-  word-break: keep-all;
-  overflow-wrap: normal;
-}
-
-@media (max-width: 700px) {
-  .page-home .hero h1 {
-    white-space: normal;
-  }
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 900px) {
