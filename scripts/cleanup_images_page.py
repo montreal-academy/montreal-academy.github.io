@@ -1,9 +1,11 @@
 from pathlib import Path
 import re
 
+ROOT = Path(__file__).resolve().parents[1]
+
 TARGETS = [
-    Path('start-living-in-montreal/index.md'),
-    Path('news/index.md'),
+    ROOT / 'pages' / 'start-living-in-montreal' / 'index.md',
+    ROOT / 'news' / 'index.md',
 ]
 
 IMG_RE = re.compile(r"^!\[[^\]]*\]\(([^)]+)\)\s*$")

@@ -25,11 +25,11 @@ source_url: https://www.montreal-academy.com/single-post/montreal-pregnancy-chil
 
 ※1：フォローアップを受けられる病院をお探しの方は、お住まいのエリアの管轄のCIUSSSのホームページも確認されるといいかと思います。
 
-・Postal codeから管轄のCIUSSSを探せます
+- Postal codeから管轄のCIUSSSを探せます
 
 Integrated health and social services centres (CISSS) and integrated university health and social services centres (CIUSSS) | Gouvernement du Québec
 
-・私たちが連絡した CIUSSS のウェブサイト
+- 私たちが連絡した CIUSSS のウェブサイト
 
 https://ciusss-centresudmtl.gouv.qc.ca/soins-et-services/grossesse-et-soins-aux-bebes/grossesse/suivi-de-grossesse
 

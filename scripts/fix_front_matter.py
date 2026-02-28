@@ -2,6 +2,7 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
+SKIP_DIRS = {"_site", "vendor", ".git", ".jekyll-cache", ".bundle"}
 
 SUB_RE = re.compile(r"^subtitle:\s*(.*)$")
 TITLE_RE = re.compile(r"^title:\s*(.*)$")
@@ -48,6 +49,8 @@ def process(path: Path):
 
 def main():
     for path in ROOT.rglob("index.md"):
+        if any(part in SKIP_DIRS for part in path.parts):
+            continue
         process(path)
 
 

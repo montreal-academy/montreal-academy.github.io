@@ -38,11 +38,11 @@ Kindergartenとは小学校に入る1学年前、つまり日本でいう幼稚�
 
 因みにダウンタウン周辺の英語メインのKindergartenとしては、
 
-・Bancroft
+- Bancroft
 
-・Carlyle
+- Carlyle
 
-・Westmount park school
+- Westmount park school
 
 あたりです（確かCarlyleのKindergartenは英語とフランス語が半々、Elementaryから英語70%、フランス語30%だった気もします・・）。
 
@@ -78,10 +78,10 @@ EMSBのホームページ   ( https://www.emsb.qc.ca/ )
 
 場所
 
-English Montreal School Board（EMSB） 
-住所　6000 Fielding，Montreal H3X 1T4  
-メトロ Villa Mariaよりバス 66番103番、Snowdonから51 番、Guy-Concordiaから　バス66 番West 
-TEL　514－483-7200  
+English Montreal School Board（EMSB）
+住所　6000 Fielding，Montreal H3X 1T4
+メトロ Villa Mariaよりバス 66番103番、Snowdonから51 番、Guy-Concordiaから　バス66 番West
+TEL　514－483-7200
 ここの121号が窓口。駐車場もある。
 
 注）モントリオール島の 西部にお住いの場合は、違う School Boardになります。
@@ -90,7 +90,7 @@ Lester B.Pearson School Board (LBPSB)
 
 http://www.lbpsb.qc.ca/eng/home.asp
 
-住所　1925 Brookdale Avenue，Dorval H9P 2Y7  
+住所　1925 Brookdale Avenue，Dorval H9P 2Y7
 TEL　514－422-3000
 
 - 現地校（公立）Elementary School

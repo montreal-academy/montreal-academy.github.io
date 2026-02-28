@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT
+PAGES_DIR = ROOT / "pages"
 IMAGES_DIR = ROOT / "assets" / "images" / "imported"
 IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -167,13 +168,16 @@ def collect_content(main: BeautifulSoup, page_title: str, slug_hint: str):
 
 
 def safe_dir_from_path(path: str) -> Path:
+    base_dir = OUTPUT_DIR
+    if path != "/" and not (path.startswith("/news/") or path.startswith("/single-post/")):
+        base_dir = PAGES_DIR
     # Use URL-encoded path segments for filesystem safety
     if path == "/":
-        return OUTPUT_DIR
+        return base_dir
     path = path.rstrip("/")
     parts = path.strip("/").split("/")
     safe_parts = [quote(part, safe="A-Za-z0-9._~-") for part in parts]
-    return OUTPUT_DIR.joinpath(*safe_parts)
+    return base_dir.joinpath(*safe_parts)
 
 
 def make_front_matter(title: str, description: str, permalink: str, published: str | None, source_url: str):

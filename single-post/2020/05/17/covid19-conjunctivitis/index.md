@@ -27,7 +27,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/17/covid19-conj
 
 ウイルスの飛沫感染・接触感染を予防するために、頻回の手洗いとアルコール消毒を心がけましょう。
 
-1.　はじめに
+1. はじめに
 
 新型コロナウイルス(COVID-19)の感染拡大が世界中で続いています。新型コロナウイルスは口や鼻の粘膜から感染しますが、目の粘膜である「結膜」からもウイルスが侵入する可能性が指摘されています。本稿では、眼科医の視点から、新型コロナウイルスに関連する結膜炎の特徴とその対策についてまとめました。
 
@@ -37,7 +37,7 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/17/covid19-conj
 
 新型コロナウイルスは、２つの感染経路によって目にも入る可能性があります。1つ目は、新型コロナウイルスに感染した患者さんの咳やくしゃみ、話しているときの唾液に含まれるウイルスが飛散して顔にかかった場合です（飛沫感染）。2つ目は、ウイルスが付いた携帯電話などを触った手で目をこすったりした場合にもウイルスが目に入る可能性があります(接触感染)。
 
-3.　新型コロナウイルスに関連する結膜炎の頻度 -低頻度だが重症化の指標に-
+3. 新型コロナウイルスに関連する結膜炎の頻度 -低頻度だが重症化の指標に-
 
 信頼性の高い医学的根拠とされるメタアナリシスの結果では、新型コロナウイルスに関連する結膜炎の発症頻度は1.1%であったと報告されており、全体としての頻度は高くないと言えます2)。結膜炎の頻度が低い理由については明らかとなっていませんが、新型コロナウイルスが体内に入り込む際に利用するACE2受容体の発現量が、結膜組織では口や鼻の粘膜組織に比べて少ないことが関係しているのではないかと考えている研究者もいるようです。
 
@@ -57,15 +57,15 @@ source_url: https://www.montreal-academy.com/single-post/2020/05/17/covid19-conj
 
 7. 参考文献
 
-1) Lu CW et al. 2019-nCoV transmission through the ocular surface must not be ignored. Lancet. 2020 Feb 22;395(10224):e39.
+1. Lu CW et al. 2019-nCoV transmission through the ocular surface must not be ignored. Lancet. 2020 Feb 22;395(10224):e39.
 
-2) Loffredo L et al. Conjunctivitis and COVID-19: a meta-analysis. J Med Virol. 2020 Apr 24.
+2. Loffredo L et al. Conjunctivitis and COVID-19: a meta-analysis. J Med Virol. 2020 Apr 24.
 
-3) Wu P et al. A child confirmed COVID-19 with only symptoms of conjunctivitis and eyelid dermatitis. Graefes Arch Clin Exp Ophthalmol. 2020 Apr 24.
+3. Wu P et al. A child confirmed COVID-19 with only symptoms of conjunctivitis and eyelid dermatitis. Graefes Arch Clin Exp Ophthalmol. 2020 Apr 24.
 
-4) Wu P et al. Characteristics of Ocular Findings of Patients With Coronavirus Disease 2019 (COVID-19) in Hubei Province, China. JAMA Ophthalmol. 2020 Mar 31.
+4. Wu P et al. Characteristics of Ocular Findings of Patients With Coronavirus Disease 2019 (COVID-19) in Hubei Province, China. JAMA Ophthalmol. 2020 Mar 31.
 
-5) 日本眼科学会・日本眼科医会 「新型コロナウイルス感染症の目に関する情報について（国民の皆様へ）」 2020 Apr 01.
+5. 日本眼科学会・日本眼科医会 「新型コロナウイルス感染症の目に関する情報について（国民の皆様へ）」 2020 Apr 01.
 
 タグ：
 

@@ -2,6 +2,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+SKIP_DIRS = {"_site", "vendor", ".git", ".jekyll-cache", ".bundle"}
 
 IMAGE_RE = re.compile(r"^!\[.*\]\(.*\)$")
 HEADING_RE = re.compile(r"^#{2,3} ")
@@ -69,6 +70,8 @@ def process_file(path: Path):
 
 def main():
     for path in ROOT.rglob("index.md"):
+        if any(part in SKIP_DIRS for part in path.parts):
+            continue
         process_file(path)
 
 

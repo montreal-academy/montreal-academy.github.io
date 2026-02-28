@@ -58,8 +58,8 @@ Postdoctoral fellow, Montreal University Hospital Research Centre (CRCHUM)
 
 長沼大樹
 
-Hiroki Naganuma 
-Ph.D. candidate, Mila - Quebec Artificial Intelligence Institute, and 
+Hiroki Naganuma
+Ph.D. candidate, Mila - Quebec Artificial Intelligence Institute, and
 Department of Computer Science and Operations Research (DIRO), Université de Montréal
 
 渡邉（春原) 桃佳
@@ -76,7 +76,7 @@ Centre de Recherche de l'Hôpital Maisonneuve-Rosemont, Université de Montréal
 
 吉治 智志
 
-Satoshi Yoshiji, MD, PhD 
+Satoshi Yoshiji, MD, PhD
 Assistant Professor, Department of Human Genetics, McGill University
 
 ![MAC 50th.jpg](/assets/images/imported/about-6412b0ca3102.jpg)
